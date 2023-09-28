@@ -1,0 +1,22 @@
+.homesec3-thumb{
+    width: 100%;
+    height: 90vh;
+}
+.homesec3-textdesc{
+    color: white;
+}
+@media (max-width: 425px) {
+    .carousel-vid{
+        min-height: 50vh;
+    }
+    .carousel-blog{
+        min-height: 50vh;
+    }
+    .homesec3-thumb{
+        width: 100%;
+        height: 50vh;
+    }
+    .homesec3-textdesc{
+        color: white;
+    }
+}

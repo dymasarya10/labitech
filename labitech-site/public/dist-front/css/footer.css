@@ -1,0 +1,23 @@
+footer{
+    background: linear-gradient(to right,#11998E,#1CF298);
+    min-height: 10vh;
+    color: white;
+}
+footer *{
+    text-decoration: none;
+    color: white;
+    transition: color .4;
+}
+footer div a:hover{
+    color: yellow;
+}
+
+@media (max-width: 425px) {
+    footer *{
+        font-size: 95%;
+    }
+}
+
+.border-blk{
+    border: 2px solid black;
+}

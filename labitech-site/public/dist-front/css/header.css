@@ -1,0 +1,10 @@
+.navbar{
+    background: linear-gradient(to right,#11998E,#1CF298);
+}
+.nav-link, .navbar-brand{
+    color: white;
+    transition: color .4s;
+}
+.nav-link:hover, .navbar-brand:hover{
+    color: yellow;
+}
