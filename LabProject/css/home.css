@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,900&display=swap');
+
+.footer-textdesc{
+    color: white;
+}
+.footer-textlink{
+    text-decoration: none;
+}
+.footer-textlink:hover{
+    color: black;
+}
+footer{
+    min-height: 20vh;
+}
+.section3-textdesc{
+    color: white;
+}
+.section3{
+    background-color: #f9ca24;
+}
+.section2-profdescription{
+    font-weight: 100;
+    font-style: italic;
+}
+.font-nunito{
+    font-family: 'Nunito',sans-serif;
+}
+.text-white{
+    color: white;
+}
+.section2-title{
+    color: white;
+}
+.section2-carsbutton{
+    border-radius: 100%; height: 10px; width: 10px;
+}
+.section2-img{
+    border-radius: 200px;
+}
+.test-color{
+    background-color: darkgreen;
+}
+.section1-choices{
+    background: linear-gradient(to right, #009432,#10ac84);
+}
+.section1-titlechoices{
+    color: white;
+    text-decoration: none;
+    transition: color .2s ease-in;
+}
+.section1-titlechoices:hover{
+    color: rgb(70, 66, 66);
+}
+.bg-default{
+    background: linear-gradient(to right, #11998E,#1CF298);
+    /* background-color: #009432; */
+}
+.nav-link{
+    color: white;
+}
+.section1{
+    background-image: url(../img/sekolahrev.jpg);
+}
+.section1-logo{
+    width: 9%;
+}
+.section1-title{
+    text-decoration: underline;
+    color: white;
+}
+.section1-subtitle{
+    font-weight: 100;
+    color: #dfe6e9;
+    font-style: italic;
+}
+.section1-title,.section1-subtitle{
+    font-family: sans-serif;
+}
+/* HP */
+
+
+  
+@media (max-width: 425px) {
+    /* .navbar{
+        position: absolute;
+    } */
+    .navbar-collapse{
+        background-color: grey;
+    }
+    .section1-title{
+        font-size: 35px;
+    }
+    .section1-logo{
+        width: 20%;
+    }
+    .section1{
+        min-height: 50vh;
+        background-repeat: no-repeat;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        padding-bottom: 40px;
+    }
+    .section1-subtitle{
+        font-size: 4vw;
+    }
+    .section1-choices{
+        width: 80%;
+        height: 55px;
+        border-radius: 10px;
+    }
+    .section1-titlechoices{
+        font-size: 15px;
+        font-style: italic;
+    }
+    .section2{
+        min-height: 60vh;
+    }
+
+    
+    /* .section2-carsbutton{
+        border-radius: 100%;
+         width: 100%;
+    } */
+
+    
+    .section2-profdescription{
+        font-size: 10px;
+        letter-spacing: .5px;
+    }
+    .section2-img{
+        width: 30%;
+    }
+    .section2-profname{
+        font-size: 17px;
+    }
+    .section2-profjob{
+        font-size: 15px;
+    }
+    .section2-title{
+        font-size: 20px;
+    }
+    .carousel-indicators{
+        display: none;
+    }
+    .section3-thumb{
+        width: 100%;
+        height: 50vh;
+    }
+    .footer-title{
+        font-size: 15px;
+    }
+    .footer-textlink{
+        font-size: 10px;
+    }
+    .footer-iconlink{
+        font-size: 10px;
+    }
+    .footer-textdesc{
+        font-size: 10px;
+    }
+}
+/* Laptop */
+@media (min-width: 1025px) {
+    .section1-logo{
+        width: 9%;
+    }
+    .nav-link, .dropdown-item{
+        font-weight: 100 !important;
+        letter-spacing: 1.5px;
+        font-size: 90%;
+        font-style: italic;
+        font-family: sans-serif;
+    }
+    .nav-link:hover{
+        color: black;
+    }
+    .section1{
+        min-height: 98vh;
+        background-repeat: no-repeat;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        padding-bottom: 60px;
+    }
+    .section1-title{
+        font-size: 4vw;
+    }
+    .section1-subtitle{
+        font-size: 2vw;
+    }
+    .section1-choices{
+        width: 60%;
+        height: 90px;
+        border-radius: 40px 0px 40px 0px;
+    }
+    .section1-titlechoices{
+        font-size: 25px;
+    }
+    .section2{
+        min-height: 100vh;
+    }
+    .section2-img{
+        width: 15%;
+    }
+    .carousel{
+        min-height: 80vh;
+    }
+    .section3-thumb{
+        width: 100%;
+        height: 90vh;
+    }
+    .footer-title{
+        font-size: 25px;
+    }
+}

@@ -1,0 +1,49 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Nunito:ital,wght@1,900&family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+body{
+    background-color: green;
+}
+.text-white{
+    color: white;
+}
+.border-col{
+    border: 1px solid black;
+}
+.col-border-red{
+    border: 1px solid red;
+}
+.section1-title{
+    font-family: 'Poppins', sans-serif;
+}
+.section1-textdesc{
+    letter-spacing: 1px;
+    font-style: italic;
+}
+/* HP */
+@media (max-width: 425px) {
+    .section1-textdesc{
+        font-size: 3vw;
+        font-weight: 100;
+    }
+}
+/* LAPTOP */
+@media (min-width: 1023px) {
+    .section1{
+        min-height: 100vh;
+    }
+    .section1-icon1{
+        width: 9vw;
+    }
+    .section1-title *{
+        font-size: 40px;
+
+    }
+    .section1-textdesc{
+        font-size: 1.1vw;
+        font-weight: 100;
+    }
+    .section1-img{
+        height: 120%;
+    }
+}
