@@ -1,0 +1,52 @@
+@import url('header.css');
+@import url('home.css');
+@import url('blog.css');
+@import url('testimonial.css');
+@import url('footer.css');
+@import url('appsec.css');
+@import url('laykarsec.css');
+
+*,html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section-content{
+    min-height: 70vh;
+}
+
+#loader {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0,0,0,0.75) url(loading.gif) no-repeat center center;
+    z-index: 10000;
+}
+
+.scroll-top {
+	cursor: pointer;
+	text-align: center;
+	font-size: 22px;
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	bottom: 20px;
+	right: 20px;
+	background: #e75542;
+	color: #fff;
+	opacity: 0.7;
+	z-index: 9999;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.scroll-top:hover {
+	opacity: 1;
+	color: #fff;
+	background: #313131;
+}

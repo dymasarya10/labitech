@@ -1,0 +1,90 @@
+/* Home Slider */
+.slider .item {
+    position: relative;
+    height: 580px;
+    transition: all 0.5s;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+.slider .item .bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+    min-height: 90vh;
+	opacity: 0.7;
+	background: rgba(0, 0, 0, .4);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.slider .text {
+	position: relative;
+	z-index: 99999;
+	text-align: center;
+	padding-top: 200px;
+}
+.slider .text h2 {
+    font-size: 4vw;
+    color: #fff;
+    margin: 0;
+    margin-bottom: 15px;
+}
+.slider .text p {
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 0.5px;
+    margin: 0 250px;
+}
+.slider .text .button {
+	margin-top: 20px;
+    border-radius: 50px 0px 50px 0px;
+}
+.slider .text .button a {
+    font-size: 15px;
+    border-radius: 50px 0px 50px 0px;
+    font-weight: 700;
+    font-family: sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
+    display: inline-block;
+    background-color: #27ae60;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #e75542;
+    /* -webkit-border-radius: 3px; */
+    padding: 14px 45px;
+    transition: all .5s;
+    -webkit-transition: all 0.3s;
+}
+.slide-carousel.owl-carousel .owl-nav .owl-prev,
+.slide-carousel.owl-carousel .owl-nav .owl-next {
+	position: absolute;
+    text-align: center;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 45px;
+    font-size: 18px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+}
+.slide-carousel.owl-carousel .owl-nav .owl-prev {
+	top: 47%;
+    left: 0;
+    margin-left: 40px;
+}
+.slide-carousel.owl-carousel .owl-nav .owl-next {
+    top: 47%;
+    right: 0;
+    margin-right: 40px
+}
+.slide-carousel.owl-carousel .owl-nav .owl-prev:hover,
+.slide-carousel.owl-carousel .owl-nav .owl-next:hover {
+    color: #e75542;
+    border: 2px solid #e75542;
+}

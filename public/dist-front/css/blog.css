@@ -1,0 +1,45 @@
+
+/* Home Page - Blog */
+.blog-item {
+	margin-top: 40px;
+}
+.blog-item h2.main-header {
+	font-size: 30px;
+	font-weight: 700;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.blog-item .inner {
+    text-decoration: none;
+	margin-bottom: 40px;
+}
+.blog-item .inner .photo {
+	margin-bottom: 10px;
+}
+.blog-item .inner .photo img {
+	width: 100%;
+	height: 220px;
+	object-fit: cover;
+}
+.blog-item .inner .text h2 {
+    text-decoration: none;
+	font-size: 18px;
+}
+.blog-item .inner .text h2 a {
+	color: #333;
+}
+.blog-item .inner .text .short-des p {
+	color: #333;
+	margin-bottom: 10px;
+	font-weight: 400;
+	font-size: 14px;
+}
+.blog-item .inner .text .button a {
+	background: #2E7D32;
+	color: white;
+	border: 0;
+	font-size: 16px;
+	width: 100%;
+	font-weight: 600;
+}
+

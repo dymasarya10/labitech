@@ -1,0 +1,8 @@
+.appsec{
+    padding-bottom: 30px;
+}
+@media (max-width:425px) {
+    .appsec-card{
+        font-size: 10px;
+    }
+}
